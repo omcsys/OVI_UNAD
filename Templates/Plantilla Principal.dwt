@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <!-- TemplateBeginEditable name="doctitle" -->
-<title>Documento sin título</title>
+<title>Diseño Web</title>
 <!-- TemplateEndEditable -->
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
@@ -14,7 +14,9 @@
 	text-align: justify;
 }
 .text-warning {
-	font-weight: bold;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: normal;
+	font-size: x-large;
 }
 </style>
 </head>
@@ -31,9 +33,24 @@
       <li><a href="Multimedia.html">Multimedia</a></li>
       <li><a class="MenuBarItemSubmenu" >Actividades</a>
         <ul>
-          <li><a href="Actividad_1.html">Actividad 1</a></li>
-          <li><a href="Actividad_2.html">Actividad 2</a></li>
-          <li><a href="Actividad_3.html">Actividad 3</a></li>
+          <li><a href="#" class="MenuBarItemSubmenu">Crucigramas</a>
+            <ul>
+              <li><a href="../Crucigramas_tediweb.html">T&eacute;rminos de Dise&ntilde;o Web</a></li>
+              <li><a href="../Cricigramas_programed.html">Programas Para Edici&oacute;n Web</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="MenuBarItemSubmenu">Sopas de Letras</a>
+            <ul>
+              <li><a href="../Sopa_1.html">Etiquetas HTML</a></li>
+              <li><a href="../Sopa_2.html">CSS3</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="MenuBarItemSubmenu">Mide Tus Conocimientos</a>
+            <ul>
+              <li><a href="../Quiz_1.html">Quiz b&aacute;sico acerca de elementos de HTML 5</a></li>
+              <li><a href="../Quiz_2.html">Quiz intermedio acerca de CSS</a></li>
+            </ul>
+          </li>
         </ul>
       </li>
       <li><a href="autores.html">Autores</a></li>
@@ -42,27 +59,22 @@
   </tr>
   <tr>
     <th colspan="2" align="left" valign="top" scope="row"><!-- TemplateBeginEditable name="Cuerpo del trabajo" -->
-      <h2 class="text-warning" >Bienvenidos!!</h2>
-      <span class="text-warning"> El curso de Diseño de Sitios Web está dirigido a estudiantes que estén interesados en el diseño web y la administración básica de sitios web.
-      </span>
-      <h3><span class="text-warning">Introducción</span></h3>
-<p class="text-justify"><span class="text-warning">El diseño es fundamental para el éxito de un sitio web. Se entiende por diseño la forma y el estilo de la página, es decir, no basta con crear una página mediante HTML y CSS, sino que la página debe resultar útil y atractiva para el usuario. <br />
-  Entran dentro del diseño, aspectos tales como la maquetación, los colores, la distribución de elementos, el tamaño y forma de los mismos, y otros elementos del estilo y composición del sitio. </span></p>
-<h3><span class="text-warning">Un buen diseño</span></h3>
-<p class="text-justify"><span class="text-warning">El éxito de un sitio web no depende solamente de que se muestren buenos contenidos, sino que gran parte del éxito se debe a un buen diseño. Una página con un buen diseño debe ser a la vez útil y atractiva, para ello debemos tener en cuenta no sólo la usabilidad o funcionalidad, sino también la estética. Al crear una página debemos pensar sobre todo en el punto de vista del usuario, es decir que a éste la página le resulte fácil de usar, y atractiva, no sólo por sus contenidos, sino también visualmente. <br />
-  En principio cabría pensar que un buen diseño es sólo cuestión de aplicar el buen gusto y el sentido común. Sin embargo esto puede no ser suficiente ya que en el diseño, existen una serie de normas y directrices que van más allá de gustos personales o de modas.</span></p>
-<h3><span class="text-warning">UNIDADES</span></h3>
-<span class="text-warning"> •	GIT Y GITHUB<br />
-•	HTML Y CSS</span><!-- TemplateEndEditable --></th>
-    <td><p>Contador de Visitas</p>
+      <p>&nbsp;</p>
+      <p>Edite Aquí</p>
+     
+    <!-- TemplateEndEditable --></th>
+    <td align="left" valign="top"><p class="text-warning">Contador de Visitas</p>
       <p><a href="https://www.contadorvisitasgratis.com" title="contador de visitas"><img src="https://counter6.allfreecounter.com/private/contadorvisitasgratis.php?c=mwyxn1e8xaut8wne2233ze4pl4nzhazf" border="0" title="contador de visitas" alt="contador de visitas"></a></p>
     <p>&nbsp;</p>
-    <p><img src="../imagenes/diseño.jpg" width="413" height="262" /></p></td>
+    <p><img src="../imagenes/diseño.jpg" width="413" height="262" /></p>
+    <p>
+      <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;height=290&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=br099e4g9bft1v22cqrvq477es%40group.calendar.google.com&amp;color=%23B1440E&amp;ctz=America%2FBogota" style="border-width:0" width="419" height="290" frameborder="0" scrolling="no"></iframe>
+    </p></td>
   </tr>
   <tr>
     <th width="33%" scope="row">&nbsp;</th>
     <td width="42%">&nbsp;</td>
-    <td><iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;height=290&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=br099e4g9bft1v22cqrvq477es%40group.calendar.google.com&amp;color=%23B1440E&amp;ctz=America%2FBogota" style="border-width:0" width="419" height="290" frameborder="0" scrolling="no"></iframe></td>
+    <td>&nbsp;</td>
   </tr>
 </table>
 <p><img src="../imagenes/pie.jpg" width="1312" height="128" /></p>
